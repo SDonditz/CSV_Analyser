@@ -16,7 +16,6 @@ public class CSVAnalyser {
     public List<List<String>> readCSV(String fileName) throws IOException {
         this.compilData = new ArrayList<>();
         String line;
-        int counter = 0;
         try {
             //FileReader pour lire le fichier qui se trouve à l'adresse en paramètre
             FileReader fileReader = new FileReader(fileName);
